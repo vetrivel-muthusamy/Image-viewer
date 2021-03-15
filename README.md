@@ -20,3 +20,18 @@ Listed below are the different pages and the features inside this web applicatio
 -   *The user can edit his/her full name.*
 
 *After clicking on an image on the profile page, the user can view all the information of the picture and perform all the functionalities on it, which the user could see and perform on the home page.*
+
+
+***Steps to run this project***:
+Run the below to get added the required modules for the project. ***node_modules*** folder will get created.
+
+    npm install
+
+Run the below Query to run the project in local server:
+
+    npm start    
+       
+Enter the below once Login page is loaded:
+
+ - Username : **admin** 
+ - Password: **admin**
