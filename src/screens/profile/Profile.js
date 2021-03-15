@@ -8,12 +8,14 @@ import Avatar from "@material-ui/core/Avatar";
 import Fab from "@material-ui/core/Fab";
 import Edit from "@material-ui/icons/Edit";
 import Modal from "react-modal";
+import Backdrop from "@material-ui/core/Backdrop";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
 import Button from "@material-ui/core/Button";
 import GridList from "@material-ui/core/GridList";
 import GridListTile from "@material-ui/core/GridListTile";
+import ProfilePic from "../../assets/profilePic.png";
 
 const classes = (theme) => ({
   avatar: {
@@ -124,7 +126,7 @@ class Profile extends Component {
             <Avatar
               alt="Profile Picture"
               variant="circular"
-              src="profile_pic_dummy.jpg"
+              src={ProfilePic}
               className={classes.avatar}
             />
             <div className="user-info-container">
